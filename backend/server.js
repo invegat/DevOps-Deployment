@@ -18,7 +18,8 @@ const server = app.listen(PORT, HOST, () => {
 /**************************************
  * Endpoint
   *************************************/
-
+const id = '4abebd4112f7c8c73ca66fccd09cee891e13d984d1b5eaa9b8da83ed6c70b683'
+const zone = 'us-east1-d'
 app.get('/', (request, response) => {
   response.send('Hello World!\n');  
 });
